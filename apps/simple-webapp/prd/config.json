@@ -1,0 +1,15 @@
+{
+    "labels": {
+        "name": "simple-webapp",
+        "env": "prd"
+    },
+    "source": {
+        "repo": "https://github.com/hebersonaguiar/simple-webapp-infra.git",
+        "path": "chart",
+        "values": "values.yaml"
+    },
+    "destination": {
+        "name": "in-cluster",
+        "namespace": "simple-webapp"
+    }
+}
